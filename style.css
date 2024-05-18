@@ -1,0 +1,101 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width:400px;
+    height:450px;
+    background-color: rgb(67, 217, 207);
+    border-radius:80px;
+}
+/*https://api.openweathermap.org/data/2.5/weather?q=india&appid=c35354a374bd2e7a574c53a645d8a96e*/
+.top{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:15px;
+}
+.top input{
+    height:20px;
+    width:200px;
+    border:0;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top:30px;
+}
+.top button{
+    height:30px;
+    width:30px;
+    border:0;
+    border-radius: 50%;
+    background-color: white;
+    margin-top:30px;
+}
+.middle img{
+    height:120px;
+    width:120px;
+}
+.middle{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.middle h1,h2{
+    color:white;
+    font-size: 25px;
+}
+.middle h1{
+    margin-top:40px;
+    font-size: 40px;
+}
+.middle h2{
+    margin-top:-20px;
+}
+.humi img{
+    height: 30px;
+    width:30px;
+    margin-top:20px;
+    margin-left:90px;
+    margin-right:10px;
+}
+.humi{
+    display:flex;
+}
+.a p{
+    color:white;
+}
+.a{
+    margin-top:10px;
+}
+.b p{
+    color:white;
+}
+.b{
+    margin-top:10px;
+}
+#text1{
+    margin-top:-15px;
+    font-size:15px;
+}
+.wi img{
+    height: 30px;
+    width:30px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:10px;
+}
+.wi{
+    display:flex;
+}
+#text2{
+    margin-top:-15px;
+    font-size:15px;
+}
+.end{
+    display:flex;
+}
+/*.middle,.end{
+    display:none;
+}*/
